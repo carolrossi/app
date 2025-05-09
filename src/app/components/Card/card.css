@@ -3,3 +3,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.container .card {
+  background-color: #bda287;
+}
+
+.container .card-text {
+  color: black
+}

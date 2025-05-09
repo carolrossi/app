@@ -225,10 +225,10 @@ const MacarrãoCard = () => {
     <>       
     <h1 className="text-center text-white my-4">Piatti di Pasta</h1>
       <div className="container">
-        <div className="row justify-content-center g-4 ">
+        <div className="row justify-content-center g-4">
           {pratosMacarrão.map((item) => (
             <div key={item.id} className="col-6 col-sm-6 col-md-4 col-lg-3 ">
-              <div className="card h-100 border-1 text-center  shadow">
+              <div className="card h-100 border-1 text-center shadow cor">
                 <div className="ratio ratio-4x3">
                   <img
                     src={item.imagem}
@@ -239,7 +239,7 @@ const MacarrãoCard = () => {
                 <div className="card-body">
                   <h5 className="card-title text-black">{item.titulo}</h5>
                   <p className="card-text text-secondary">{item.ingrediente}</p>
-                  <p className="card-text text-success fw-bold fs-5">{item.preco}</p>
+                  <p className="card-text fw-bold fs-5">{item.preco}</p>
                 </div>
               </div>
             </div>
@@ -271,7 +271,7 @@ const PizzaCard = () => {
                 <div className="card-body">
                   <h5 className="card-title">{item.titulo}</h5>
                   <p className="card-text text-muted">{item.ingrediente}</p>
-                  <p className="card-text text-success fw-bold fs-5">{item.preco}</p>
+                  <p className="card-text fw-bold fs-5">{item.preco}</p>
                 </div>
               </div>
             </div>
@@ -300,7 +300,7 @@ const SobremesaCard = () => {
                 <div className="card-body">
                   <h5 className="card-title">{item.titulo}</h5>
                   <p className="card-text text-muted">{item.ingrediente}</p>
-                  <p className="card-text text-success fw-bold fs-5">{item.preco}</p>
+                  <p className="card-text  fw-bold fs-5">{item.preco}</p>
                 </div>
               </div>
             </div>
@@ -329,7 +329,7 @@ const PrimeirosPratosCard = () => {
                 <div className="card-body">
                   <h5 className="card-title">{item.titulo}</h5>
                   <p className="card-text text-muted">{item.ingrediente}</p>
-                  <p className="card-text text-success fw-bold fs-5">{item.preco}</p>
+                  <p className="card-text  fw-bold fs-5">{item.preco}</p>
                 </div>
               </div>
             </div>
